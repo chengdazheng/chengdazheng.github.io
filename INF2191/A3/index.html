@@ -13,6 +13,21 @@
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+      .crop {
+    display: block;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+}
+.crop img {
+    left: -1px; /* alter this to move left or right */
+    position: absolute;
+    top: -10px; /* alter this to move up or down */
+}
+      
+      </style>
   </head>
   <body>
        <nav>
@@ -48,7 +63,15 @@
       <img src="intro.png" class="img-fluid" alt="Responsive image" id="intro">
 
               <img src="show1.png" class="img-fluid" alt="Responsive image" id="showcase">
+        
+        <div class="crop">
+
+              <img src="v4.gif" class="img-fluid youtube_thumb" alt="Responsive image" id="showcase2">
+              <img src="v2.gif" class="img-fluid youtube_thumb" alt="Responsive image" id="showcase3">
+              <img src="v3.gif" class="img-fluid youtube_thumb" alt="Responsive image" id="showcase4">
+        </div>
       <img src="storyboard.png" class="img-fluid" alt="Responsive image" id="storyboard">
+        
       <img src="define.png" class="img-fluid" alt="Responsive image" id="rational">
       <img src="figma.png" class="img-fluid" alt="Responsive image" id="design">
       <img src="bg.png" class="img-fluid" alt="Responsive image" id="bottom">
